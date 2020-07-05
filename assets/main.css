@@ -13,13 +13,14 @@ header
 {
 
 	height: 90vh;
-	background-image: url('https://images.unsplash.com/photo-1529420705456-5c7e04dd043d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f23d7c077ab1f917d774c638d0aefadc&auto=format&fit=crop&w=700&q=80');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('http://baumcube.weebly.com/uploads/6/5/8/4/65844733/random-gelato-design_orig.png');
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-size: cover;
 	justify-content: center;
 	margin-bottom: 30px;
+  color: white;
 }
 .main
 {
@@ -36,12 +37,13 @@ header
 
 .flavor_header{
   height: 90vh;
-  background-image: url('https://images.unsplash.com/photo-1529420705456-5c7e04dd043d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f23d7c077ab1f917d774c638d0aefadc&auto=format&fit=crop&w=700&q=80');
+ background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('http://baumcube.weebly.com/uploads/6/5/8/4/65844733/random-gelato-design_orig.png');
   display: flex;
   flex-direction: column;
   align-items: center;
   background-size: cover;
   justify-content: center;
+  color: white;
 }
 
 .flavor_intro{
@@ -362,7 +364,7 @@ header
   -webkit-font-smoothing: antialiased;
     
     /* Border styles */
-    border: 5px solid black; 
+    border: 5px solid white; 
 
 
  -webkit-transition-duration: 0.5s; /* Safari */
@@ -372,7 +374,7 @@ header
 
 .btn:hover {
  margin-top: 15px;
-border: 6px solid black; 
+border: 6px solid white; 
  font-size: 1.75em;
    letter-spacing: .02em;
   -webkit-font-smoothing: antialiased;
